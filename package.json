@@ -1,0 +1,14 @@
+{
+  "name": "receipt-node-demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@npco/receipt": "^0.0.0-canary-dd57ade22"
+  }
+}
