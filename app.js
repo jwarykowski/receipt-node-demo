@@ -1,5 +1,7 @@
+const { readFileSync } = require('fs')
 const { receiptToHtml } = require("@npco/receipt")
-const css = require.resolve('@npco/receipt/css')
+
+const css = readFileSync(require.resolve('@npco/receipt/css'))
 
 const data = {
   business: {
